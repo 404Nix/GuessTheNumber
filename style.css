@@ -6,7 +6,7 @@
     font-style: normal;
 }
 
-.screen{
+body{
     width: 100vw;
     height: 100vh;
     /* background-color: red; */
@@ -15,4 +15,6 @@
 
 .heading{
     color: white;
+    margin-top: 1rem;
+    text-align: center;
 }

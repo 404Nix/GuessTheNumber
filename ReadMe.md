@@ -3,6 +3,8 @@
         
 <h2>Description</h2>
 <p>A simple guessing game implemented using HTML.</p>
+<a href= "https://404nix.github.io/GuessTheNumber/
+">Live</a>
         
 <h2>How to Play</h2>
         <ol>

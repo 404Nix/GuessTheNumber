@@ -9,7 +9,7 @@
 <h2>How to Play</h2>
         <ol>
             <li>Enter a range of numbers in the form provided.</li>
-            <li>Click "PLAY" to start the game.</li>
+            <li>Click "RANDOM" to start the game.</li>
             <li>Guess the number within the specified range.</li>
             <li>Receive feedback on whether your guess is correct or not.</li>
             <li>Keep guessing until you find the correct number!</li>

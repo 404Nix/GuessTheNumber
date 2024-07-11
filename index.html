@@ -17,21 +17,31 @@
             <h1>Number Game</h1>
         </div>
         <div class="game">
-            <form>
+            <form action="" id="rangeform">
                 <div class="user-box">
-                <input type="text" name="" required="">
-                <label>Enter the range</label>
+                    <input type="text" id="range" name="range" required>
+                    <label>Enter the range</label>
                 </div>
-                <div class="user-box">
-                <input type="password" name="" required="">
-                <label>Enter your guess</label>
-                </div><center>
-                <a href="#">
-                        SUBMIT
-                    <span></span>
-                </a></center>
+                <center>
+                    <button type="submit">RANDOM <span></span></button>
+                </center>
             </form>
+            <form action="" id="userguess" class="hidden">
+                <div class="user-box">
+                    <input type="text" id="guess" name="guess" required>
+                    <label>Enter your guess</label>
+                </div>
+                <center>
+                    <button type="submit">GUESS <span></span></button>
+                </center>
+            </form>
+            <div id="result" class="hidden">
+                <center>
+                <p id="result-message"></p>
+                </center>
+            </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

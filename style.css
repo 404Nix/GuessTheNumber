@@ -79,21 +79,24 @@ body{
     font-size: 12px;
   }
   
-  .game form a {
+  .game form button {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0);
     color: #ffffff;
     font-size: 16px;
-    text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
     transition: .5s;
-    margin-top: 40px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    border: none;
+    cursor: pointer;
     letter-spacing: 4px
   }
   
-  .game a:hover {
+  .game button:hover {
     background: #05377b;
     color: #fff;
     border-radius: 5px;
@@ -103,7 +106,7 @@ body{
                 0 0 100px #05377b;
   }
   
-  .game a span {
+  .game button span {
     position: absolute;
     display: block;
   }
@@ -118,7 +121,7 @@ body{
     }
   }
   
-  .game a span:nth-child(1) {
+  .game button span:nth-child(1) {
     bottom: 2px;
     left: -100%;
     width: 100%;
@@ -126,3 +129,34 @@ body{
     background: linear-gradient(90deg, transparent, #05377b);
     animation: btn-anim1 2s linear infinite;
   }
+
+  .hidden{
+    display: none;
+    transition: all;
+  }
+
+  .visible {
+    display: block;
+    animation: slide-in 0.5s forwards;
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#result-message{
+  color: #808080;
+  border: 1px solid #808080;
+  padding: 1rem;
+  text-shadow: 0 0 5px #05377b,
+                0 0 25px#05377b,
+                0 0 50px #05377b,
+                0 0 100px #05377b;
+}

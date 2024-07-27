@@ -180,4 +180,9 @@ body{
 .icons a{
   text-decoration: none;
   color: white;
+  opacity: 0.5;
+}
+
+.icons a:hover{
+  opacity: 1;
 }
